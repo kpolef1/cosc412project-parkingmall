@@ -1,14 +1,94 @@
 <!DOCTYPE html>
 <html lang = "en">
   <head>
-    <meta charset "UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <input type=button onClick="parent.location='signup.html'"value='Signup'>
-    <input type=button onClick="parent.location='login.html'" value='Login'>
+    <h1>Welcome to (insert site name)!</h1>
+
+    <h3>Sign up:</h3>
+    <form action="homepage.html" method="get" id="form1" onsubmit="return passwordVerify() && usernameVerify()">
+
+      <fieldset>
+        <!--Username input-->
+        <label for="username1">Username:</label>
+        <input type="text" id="username1" name="username1" required><br>
+        <br>
+
+        <!--Email input-->
+        <label for="email1">Email Address:</label>
+        <input type="text" id="email1" name="email1" required><br>
+        <br>
+
+        <!--Password input-->
+        <label for="password1">Password:</label>
+        <input type="password" id="password1" name="password1"  required><br>
+        <br>
+
+        <!--Verify password input-->
+        <label for="verify-pw1">Verify Password:</label>
+        <input type="password" id="verifyPassword1" name="verifyPassword1"  required ><br>
+        <br>
+
+        <!--Submit fieldset-->
+        <button type="submit" id ="submit1" form="form1" value="Submit">Submit</button>
+      </fieldset>
+    </form>
+
+    
+    <h3>Log in:</h3>
+    <form action="homepage.html" method="get" id="form2">
+      <fieldset>
+        <!--Username input-->
+        <label for="username2">Username:</label>
+        <input type="text" id="username2" name="username2" required><br>
+        <br>
+
+        <!--Password input-->
+        <label for="password2">Password:</label>
+        <input type="password" id="password2" name="password2"  required><br>
+        <br>
+
+        <!--Submit fieldset-->
+        <button type="submit" id ="submit2" form="form2" value="Submit">Submit</button>
+      </fieldset>
+    </form>
+
+  </body>
+
+  <script type="text/javascript">
+
+    /*Function to verify that password and password verification inputs match*/
+    function passwordVerify(){
+        var pswd = document.getElementById("password1").value;
+        var confirmPswd = document.getElementById("verifyPassword1").value;
+
+        if(pswd!= confirmPswd){
+            alert("Password do not match; Please verify and try again.");
+            return false;
+        }
+        return true;
+    }
+
+    /*Function to verify that username length is appropriate (between 6 and 24 characters)*/
+    function usernameVerify(){
+        var username = document.getElementById("username1").value;
+
+        if(username.length < 6){
+            alert("Username must be at least 6 characters long");
+            return false;
+        }
+        else if(username.length > 24){
+            alert("Username must be less than 24 characters long");
+            return false;
+        }
+        return true;
+    }
+
+</script>
   </body>
 </html>

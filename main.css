@@ -6,7 +6,6 @@
 
 body {
   background-color: #8d8d8d;
-  display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -27,6 +26,13 @@ li {
 .list {
   list-style: square;
 }
+
+fieldset{
+  border: 5px solid #333333;
+  margin-right: 75%;
+}
+
+
 
 /* .light-theme {
   --bg: var(--green);
