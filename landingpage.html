@@ -10,8 +10,8 @@
   <body>
     <h1>Welcome to ParkSpot!</h1>
     <!--I want to make this go to 2 separate pages, one for sign up and one for sign in-->
-    <button type="button" onclick="alert('Sign In!')">Sign In</button>
-    <button type="button" onclick="alert('Register')">Register</button>
+    <button type="button" onclick="parent.location='signIn.html'">Sign In</button>
+    <button type="button" onclick="parent.location='signup.html'">Sign Up</button>
     <!--End here-->
     <h3>Register:</h3>
     <form action="homepage.html" method="get" id="form1" onsubmit="return passwordVerify() && usernameVerify()">
