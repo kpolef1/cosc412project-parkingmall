@@ -129,3 +129,7 @@ fieldset{
   top: 370px;
   left: -360px;
 }
+
+.hidden{
+  display: none;
+}

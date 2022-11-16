@@ -9,12 +9,8 @@
   </head>
   <body>
     <h1>Welcome to ParkSpot!</h1>
-    <!--I want to make this go to 2 separate pages, one for sign up and one for sign in-->
-    <button type="button" onclick="parent.location='signIn.html'">Sign In</button>
-    <button type="button" onclick="parent.location='signup.html'">Sign Up</button>
-    <!--End here-->
     <h3>Register:</h3>
-    <form action="homepage.html" method="get" id="form1" onsubmit="return passwordVerify() && usernameVerify()">
+    <form action="details.php" method="post" id="form1" onsubmit="return passwordVerify() && usernameVerify()">
 
       <fieldset>
         <!--Username input-->
@@ -38,13 +34,13 @@
         <br>
 
         <!--Submit fieldset-->
-        <button type="submit" id ="submit1" form="form1" value="Submit">Submit</button>
+        <button type="submit" id ="submit1" form="form1" name="save" value="Submit">Submit</button>
       </fieldset>
     </form>
 
     
     <h3>Log in:</h3>
-    <form action="homepage.html" method="get" id="form2">
+    <form action="validate.php" method="post" id="form2">
       <fieldset>
         <!--Username input-->
         <label for="username2">Username:</label>
@@ -57,7 +53,7 @@
         <br>
 
         <!--Submit fieldset-->
-        <button type="submit" id ="submit2" form="form2" value="Submit">Submit</button>
+        <button type="submit" id ="submit2" name="save1" form="form2" value="Submit">Submit</button>
       </fieldset>
     </form>
 
