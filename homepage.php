@@ -24,20 +24,20 @@
     </form>
 
     <?php
-      if(isset($_POST['logout'])){
-        if(isset($_SESSION['username'])){
+      if(isset($_SESSION['username'])){
+        if(isset($_POST['logout'])){
           session_destroy();
           echo '<script language="javascript">';
           echo 'alert("You have been successfully logged out");';
           echo 'window.location = "landingpage.html"';
           echo '</script>';
         }
-        else{
-          echo '<script language="javascript">';
-          echo 'alert("You are not currently logged in");';
-          echo 'window.location = "landingpage.html"';
-          echo '</script>';
-        }
+      }
+      else{
+        echo '<script language="javascript">';
+        echo 'alert("You are not currently logged in");';
+        echo 'window.location = "landingpage.html"';
+        echo '</script>';
       }
     ?>
 
