@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #8d8d8d;
+  background-color: #ADD8E6;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -32,104 +32,8 @@ fieldset{
   margin-right: 75%;
 }
 
-
-
 .parent{
   position: relative;
   top: 0;
   bottom: 0;
-}
-
-.image1 {
-  position: relative;
-  top: 100px;
-  left: 23px;
-}
-
-.image2 {
-  position: relative;
-  top: 100px;
-  left: 60px;
-}
-
-.image3 {
-  position: relative;
-  top: 100px;
-  left: 97px;
-}
-
-.image4 {
-  position: relative;
-  top: 100px;
-  left: 134px;
-}
-
-.image5{
-  position: relative;
-  top: 100px;
-  left: 171px;
-}
-
-.image6{
-  position: relative;
-  top: 100px;
-  left: 208px;
-}
-
-.image7{
-  position: relative;
-  top: 100px;
-  left: 245px;
-}
-
-.image8{
-  position: relative;
-  top: 100px;
-  left: 282px;
-}
-
-.image9{
-  position: relative;
-  top: 100px;
-  left: 319px;
-}
-
-.image10{
-  position: relative;
-  top: 370px;
-  left: 260px;
-}
-
-.image11{
-  position: relative;
-  top: 457px;
-  left: 230px;
-}
-
-.image12{
-  position: relative;
-  top: 544px;
-  left: 200px;
-}
-
-.image13{
-  position: relative;
-  top: 544px;
-  left: -300px;
-}
-
-.image14{
-  position: relative;
-  top: 457px;
-  left: -330px;
-}
-
-.image15{
-  position: relative;
-  top: 370px;
-  left: -360px;
-}
-
-.hidden{
-  display: none;
 }

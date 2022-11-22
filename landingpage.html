@@ -4,89 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css?v=<?php echo time(); ?>">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="main.css">
   </head>
-  <body style = background-color:#ADD8E6>>
+  <body>
     <h1>Welcome to ParkSpot!</h1>
-    <h3>Register:</h3>
-    <form action="details.php" method="post" id="form1" onsubmit="return passwordVerify() && usernameVerify()">
-
-      <fieldset>
-        <!--Username input-->
-        <label for="username1">Username:</label>
-        <input type="text" id="username1" name="username1" required><br>
-        <br>
-
-        <!--Email input-->
-        <label for="email1">Email Address:</label>
-        <input type="text" id="email1" name="email1" required><br>
-        <br>
-
-        <!--Password input-->
-        <label for="password1">Password:</label>
-        <input type="password" id="password1" name="password1"  required><br>
-        <br>
-
-        <!--Verify password input-->
-        <label for="verify-pw1">Verify Password:</label>
-        <input type="password" id="verifyPassword1" name="verifyPassword1"  required ><br>
-        <br>
-
-        <!--Submit fieldset-->
-        <button type="submit" id ="submit1" form="form1" name="save" value="Submit">Submit</button>
-      </fieldset>
-    </form>
-
-    
-    <h3>Log in:</h3>
-    <form action="validate.php" method="post" id="form2">
-      <fieldset>
-        <!--Username input-->
-        <label for="username2">Username:</label>
-        <input type="text" id="username2" name="username2" required><br>
-        <br>
-
-        <!--Password input-->
-        <label for="password2">Password:</label>
-        <input type="password" id="password2" name="password2"  required><br>
-        <br>
-
-        <!--Submit fieldset-->
-        <button type="submit" id ="submit2" name="save1" form="form2" value="Submit">Submit</button>
-      </fieldset>
-    </form>
-
+    <!--I wanna make this go to 2 separate pages, one for sign up and one for sign in-->
+    <!--I want to make this go to 2 separate pages, one for sign up and one for sign in-->
+    <input type=button onClick="parent.location='signIn.php'"value='sign in'>
+    <input type=button onClick="parent.location='register.php'"value='register'>
+    <input type=button onClick="parent.location='viewspotsfromlandingpage.php'"value='view available spots'>
   </body>
-
-  <script type="text/javascript">
-
-    /*Function to verify that password and password verification inputs match*/
-    function passwordVerify(){
-        var pswd = document.getElementById("password1").value;
-        var confirmPswd = document.getElementById("verifyPassword1").value;
-
-        if(pswd!= confirmPswd){
-            alert("Password do not match; Please verify and try again.");
-            return false;
-        }
-        return true;
-    }
-
-    /*Function to verify that username length is appropriate (between 6 and 24 characters)*/
-    function usernameVerify(){
-        var username = document.getElementById("username1").value;
-
-        if(username.length < 6){
-            alert("Username must be at least 6 characters long");
-            return false;
-        }
-        else if(username.length > 24){
-            alert("Username must be less than 24 characters long");
-            return false;
-        }
-        return true;
-    }
-
-</script>
 </html>
