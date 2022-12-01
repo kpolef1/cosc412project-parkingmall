@@ -67,7 +67,7 @@
       $query = "select * from tbl_accounts where spot_number = 1";
       $result = mysqli_query($conn, $query);
       $count = mysqli_num_rows($result);
-      //if count is greater than 1, this means spot is resevred, so the x is drawn
+      //if count is greater than 1, this means spot is reserved, so the x is drawn
       if($count > 0){
         echo "<img class='image1Reserved' src='https://banner2.cleanpng.com/20180714/kl/kisspng-computer-icons-symbol-x-5b49c174ba0a48.438958991531560308762.jpg' width = 25 height = 25 />";
       }
@@ -79,7 +79,7 @@
       $query = "select * from tbl_accounts where spot_number = 2";
       $result = mysqli_query($conn, $query);
       $count = mysqli_num_rows($result);
-      //if count is greater than 1, this means spot is resevred, so the handicap sign is drawn is drawn
+      //if count is greater than 1, this means spot is reserved, so the handicap sign is drawn is drawn
       if($count > 0){
         echo "<img class='image2Reserved' src='https://banner2.cleanpng.com/20180714/kl/kisspng-computer-icons-symbol-x-5b49c174ba0a48.438958991531560308762.jpg' width = 25 height = 25 />";
       }
@@ -91,7 +91,7 @@
       $query = "select * from tbl_accounts where spot_number = 3";
       $result = mysqli_query($conn, $query);
       $count = mysqli_num_rows($result);
-      //if count is greater than 1, this means spot is resevred, so the x is drawn
+      //if count is greater than 1, this means spot is reserved, so the x is drawn
       if($count > 0){
         echo "<img class='image3Reserved' src='https://banner2.cleanpng.com/20180714/kl/kisspng-computer-icons-symbol-x-5b49c174ba0a48.438958991531560308762.jpg' width = 25 height = 25 />";
       }
@@ -103,7 +103,7 @@
       $query = "select * from tbl_accounts where spot_number = 4";
       $result = mysqli_query($conn, $query);
       $count = mysqli_num_rows($result);
-      //if count is greater than 1, this means spot is resevred, so the x is drawn
+      //if count is greater than 1, this means spot is reserved, so the x is drawn
       if($count > 0){
         echo "<img class='image4Reserved' src='https://banner2.cleanpng.com/20180714/kl/kisspng-computer-icons-symbol-x-5b49c174ba0a48.438958991531560308762.jpg' width = 25 height = 25 />";
       }
@@ -115,7 +115,7 @@
       $query = "select * from tbl_accounts where spot_number = 5";
       $result = mysqli_query($conn, $query);
       $count = mysqli_num_rows($result);
-      //if count is greater than 1, this means spot is resevred, so the x is drawn
+      //if count is greater than 1, this means spot is reserved, so the x is drawn
       if($count > 0){
         echo "<img class='image5Reserved' src='https://banner2.cleanpng.com/20180714/kl/kisspng-computer-icons-symbol-x-5b49c174ba0a48.438958991531560308762.jpg' width = 25 height = 25 />";
       }
@@ -127,7 +127,7 @@
       $query = "select * from tbl_accounts where spot_number = 6";
       $result = mysqli_query($conn, $query);
       $count = mysqli_num_rows($result);
-      //if count is greater than 1, this means spot is resevred, so the x is drawn
+      //if count is greater than 1, this means spot is reserved, so the x is drawn
       if($count > 0){
         echo "<img class='image6Reserved' src='https://banner2.cleanpng.com/20180714/kl/kisspng-computer-icons-symbol-x-5b49c174ba0a48.438958991531560308762.jpg' width = 25 height = 25 />";
       }
@@ -139,7 +139,7 @@
       $query = "select * from tbl_accounts where spot_number = 7";
       $result = mysqli_query($conn, $query);
       $count = mysqli_num_rows($result);
-      //if count is greater than 1, this means spot is resevred, so the handicap sign is drawn is drawn
+      //if count is greater than 1, this means spot is reserved, so the handicap sign is drawn is drawn
       if($count > 0){
         echo "<img class='image7Reserved' src='https://banner2.cleanpng.com/20180714/kl/kisspng-computer-icons-symbol-x-5b49c174ba0a48.438958991531560308762.jpg' width = 25 height = 25 />";
       }
@@ -151,7 +151,7 @@
       $query = "select * from tbl_accounts where spot_number = 8";
       $result = mysqli_query($conn, $query);
       $count = mysqli_num_rows($result);
-      //if count is greater than 1, this means spot is resevred, so the handicap sign is drawn is drawn
+      //if count is greater than 1, this means spot is reserved, so the handicap sign is drawn is drawn
       if($count > 0){
         echo "<img class='image8Reserved' src='https://banner2.cleanpng.com/20180714/kl/kisspng-computer-icons-symbol-x-5b49c174ba0a48.438958991531560308762.jpg' width = 25 height = 25 />";
       }
@@ -163,7 +163,7 @@
       $query = "select * from tbl_accounts where spot_number = 9";
       $result = mysqli_query($conn, $query);
       $count = mysqli_num_rows($result);
-      //if count is greater than 1, this means spot is resevred, so the x is drawn
+      //if count is greater than 1, this means spot is reserved, so the x is drawn
       if($count > 0){
         echo "<img class='image9Reserved' src='https://banner2.cleanpng.com/20180714/kl/kisspng-computer-icons-symbol-x-5b49c174ba0a48.438958991531560308762.jpg' width = 25 height = 25 />";
       }
@@ -175,7 +175,7 @@
       $query = "select * from tbl_accounts where spot_number = 10";
       $result = mysqli_query($conn, $query);
       $count = mysqli_num_rows($result);
-      //if count is greater than 1, this means spot is resevred, so the x is drawn
+      //if count is greater than 1, this means spot is reserved, so the x is drawn
       if($count > 0){
         echo "<img class='image10Reserved' src='https://banner2.cleanpng.com/20180714/kl/kisspng-computer-icons-symbol-x-5b49c174ba0a48.438958991531560308762.jpg' width = 25 height = 25 />";
       }
@@ -187,7 +187,7 @@
       $query = "select * from tbl_accounts where spot_number = 11";
       $result = mysqli_query($conn, $query);
       $count = mysqli_num_rows($result);
-      //if count is greater than 1, this means spot is resevred, so the handicap sign is drawn is drawn
+      //if count is greater than 1, this means spot is reserved, so the handicap sign is drawn is drawn
       if($count > 0){
         echo "<img class='image11Reserved' src='https://banner2.cleanpng.com/20180714/kl/kisspng-computer-icons-symbol-x-5b49c174ba0a48.438958991531560308762.jpg' width = 25 height = 25 />";
       }
@@ -199,7 +199,7 @@
       $query = "select * from tbl_accounts where spot_number = 12";
       $result = mysqli_query($conn, $query);
       $count = mysqli_num_rows($result);
-      //if count is greater than 1, this means spot is resevred, so the x is drawn
+      //if count is greater than 1, this means spot is reserved, so the x is drawn
       if($count > 0){
         echo "<img class='image12Reserved' src='https://banner2.cleanpng.com/20180714/kl/kisspng-computer-icons-symbol-x-5b49c174ba0a48.438958991531560308762.jpg' width = 25 height = 25 />";
       }
@@ -211,7 +211,7 @@
       $query = "select * from tbl_accounts where spot_number = 13";
       $result = mysqli_query($conn, $query);
       $count = mysqli_num_rows($result);
-      //if count is greater than 1, this means spot is resevred, so the x is drawn
+      //if count is greater than 1, this means spot is reserved, so the x is drawn
       if($count > 0){
         echo "<img class='image13Reserved' src='https://banner2.cleanpng.com/20180714/kl/kisspng-computer-icons-symbol-x-5b49c174ba0a48.438958991531560308762.jpg' width = 25 height = 25 />";
       }
@@ -223,7 +223,7 @@
       $query = "select * from tbl_accounts where spot_number = 14";
       $result = mysqli_query($conn, $query);
       $count = mysqli_num_rows($result);
-      //if count is greater than 1, this means spot is resevred, so the handicap sign is drawn is drawn
+      //if count is greater than 1, this means spot is reserved, so the handicap sign is drawn is drawn
       if($count > 0){
         echo "<img class='image14Reserved' src='https://banner2.cleanpng.com/20180714/kl/kisspng-computer-icons-symbol-x-5b49c174ba0a48.438958991531560308762.jpg' width = 25 height = 25 />";
       }
@@ -235,7 +235,7 @@
       $query = "select * from tbl_accounts where spot_number = 15";
       $result = mysqli_query($conn, $query);
       $count = mysqli_num_rows($result);
-      //if count is greater than 1, this means spot is resevred, so the x is drawn
+      //if count is greater than 1, this means spot is reserved, so the x is drawn
       if($count > 0){
         echo "<img class='image15Reserved' src='https://banner2.cleanpng.com/20180714/kl/kisspng-computer-icons-symbol-x-5b49c174ba0a48.438958991531560308762.jpg' width = 25 height = 25 />";
       }
@@ -244,7 +244,7 @@
       }
 
       if(isset($_POST['spot1'])){
-        //gets username from the user thats logged in and the spot number they chose
+        //gets username from the user that's logged in and the spot number they chose
         $username = $_SESSION['username'];
         $spot_number = $_POST['spot1'];
   
