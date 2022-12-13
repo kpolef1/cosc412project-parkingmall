@@ -18,7 +18,6 @@
     </div>
 
     <input type=button onClick="parent.location='manualReserve.php'"value='Manually Reserve A Spot'>
-    <input type=button onClick="parent.location='recommendedSpot.html'" value='Get A Recommended Spot'>
     <input type=button onClick="parent.location='homepage.php'" value='Go Back'>
 
   </body>
