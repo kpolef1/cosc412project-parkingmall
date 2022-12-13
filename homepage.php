@@ -15,7 +15,7 @@
    
   </head>
   <body>
-    <input type=button onClick="parent.location='reservespot.php'"value='Reserve A Spot'>
+    <input type=button onClick="parent.location='manualReserve.php'"value='Reserve A Spot'>
     <input type=button onClick="parent.location='viewspots.php'" value='View Available Spots'>
     <input type=button onClick="parent.location='manageaccount.php'" value='Manage Account'>
     

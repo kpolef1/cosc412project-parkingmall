@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css?v=<?php echo time(); ?>">
-    <title>Manually Reserve Spot</title>
+    <title>Reserve Spot - Park Spot</title>
   </head>
   <body style = background-color:#ADD8E6>
     <div class="header">
