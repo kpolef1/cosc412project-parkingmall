@@ -26,6 +26,7 @@
         <!--Submit fieldset-->
         <button type="submit" id ="submit2" form="form2" name="save1" value="Submit">Submit</button>
       </fieldset>
+      <input type=button onClick="javascript:history.go(-1)" value='Go Back'>
     </form>
 
     <?php
