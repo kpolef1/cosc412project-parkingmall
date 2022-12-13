@@ -37,7 +37,7 @@
       <input type="submit" name="spot1" id=spot1 value="14" />
       <input type="submit" name="spot1" id=spot1 value="15" />
     </form>
-    <input type=button onClick="parent.location='reservespot.php'"value='Go Back'>
+    <input type=button onClick="parent.location='homepage.php'"value='Go Back'>
 
   <?php
     //initializes variables used for connecting to database
