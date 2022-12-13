@@ -40,6 +40,7 @@
         <!--Submit fieldset-->
         <button type="submit" id ="submit1" form="form1" name="save" value="Submit">Submit</button>
       </fieldset>
+      <input type=button onClick="parent.location='homepage.php'"value='Go Back'>
     </form>
 
     <?php
