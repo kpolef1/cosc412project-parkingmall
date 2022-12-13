@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
-    <title>unreservespot</title>
+    <title>Manage Account - ParkSpot</title>
     <link rel="stylesheet" href="main.css?v=<?php echo time(); ?>">
     <h1>Here, you can unreserve your current spot if you have one or you can delete your account</h1>
   </head>

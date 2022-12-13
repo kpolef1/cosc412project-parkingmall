@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Home Page - ParkSpot</title>
     <link rel="stylesheet" href="main.css?v=<?php echo time(); ?>">
     <h1> Welcome to ParkSpot </h1>
     <h3> Choose an option </h3>
