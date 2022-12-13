@@ -15,8 +15,8 @@
   <body>
     
     <form action="manageaccount.php" method="post">
-      <input type="submit" name="unreserve" id=unreserve value="unreserve spot" />
-      <input type="submit" name="deleteaccount" id=deleteaccount value="delete account" />
+      <input type="submit" name="unreserve" id=unreserve value="Unreserve Spot" />
+      <input type="submit" name="deleteaccount" id=deleteaccount value="Delete Account" />
     </form>
 
     <input type=button onClick="parent.location='homepage.php'"value='Go Back'>

@@ -20,7 +20,7 @@
     <input type=button onClick="parent.location='manageaccount.php'" value='Manage Account'>
     
     <form action="homepage.php" method="post">
-      <input type="submit" name="logout" id=logout value="logout" />
+      <input type="submit" name="logout" id=logout value="Log Out" />
     </form>
 
     <?php
