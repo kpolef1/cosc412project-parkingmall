@@ -11,8 +11,8 @@
     <title>Reserve Spot - ParkSpot</title>
     <link rel="stylesheet" href="main.css?v=<?php echo time(); ?>">
   </head>
-
-  <body>
+<center>
+  <body style="background-color:#ADD8E6">
     <div class="header">
       <p style="color:black">Choose if you would rather manually reserve a spot or if you would like to get a recommended spot</p>
     </div>
@@ -21,5 +21,5 @@
     <input type=button onClick="parent.location='homepage.php'" value='Go Back'>
 
   </body>
-
+</center>
 </html>
