@@ -4,6 +4,7 @@
 
 <!DOCTYPE html>
 <html lang = "en">
+<center>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -14,7 +15,7 @@
     <h3> Choose an option </h3>
    
   </head>
-  <body>
+  <body style="background-color:#ADD8E6">
     <input type=button onClick="parent.location='manualReserve.php'"value='Reserve A Spot'>
     <input type=button onClick="parent.location='viewspots.php'" value='View Available Spots'>
     <input type=button onClick="parent.location='manageaccount.php'" value='Manage Account'>
@@ -46,4 +47,5 @@
 </script>
 
   </body>
+</center>
 </html>
