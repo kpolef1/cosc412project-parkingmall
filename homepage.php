@@ -12,7 +12,7 @@
     <title>Home Page - ParkSpot</title>
     <link rel="stylesheet" href="main.css?v=<?php echo time(); ?>">
     <h1> Welcome to ParkSpot </h1>
-    <h3> Choose an option </h3>
+    <h3> Choose an option : </h3>
    
   </head>
   <body style="background-color:#ADD8E6">

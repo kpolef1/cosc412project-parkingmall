@@ -13,7 +13,7 @@
   </head>
   <body style = background-color:#ADD8E6>
     <div class="header">
-      <p style="color:black">Please select an available spot. Spots that have an X are already reserved</p>
+      <p style="color:black">Please select an available spot. Spots that have an X are already reserved.</p>
     </div>
 
     <br>

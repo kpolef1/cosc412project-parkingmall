@@ -13,7 +13,7 @@
   </head>
   <body style = background-color:#ADD8E6>
     <div class="header">
-      <p style="color:black">These are the available spots. Spots marked with an X are reserved</p>
+      <p style="color:black">These are the available spots. Spots marked with an X are reserved.</p>
     </div>
 
     <br>

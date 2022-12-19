@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
-    <title>Registration- ParkSpot</title>
+    <title>Registration - ParkSpot</title>
     <link rel="stylesheet" href="main.css">
   </head>
   <body style = background-color:#ADD8E6>
