@@ -10,7 +10,7 @@
     <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
     <title>Manage Account - ParkSpot</title>
     <link rel="stylesheet" href="main.css?v=<?php echo time(); ?>">
-    <h1>Here, you can unreserve your current spot if you have one or you can delete your account</h1>
+    <h1>Here, you can unreserve your current spot if you have one or you can delete your account.</h1>
   </head>
   <body>
     
